@@ -208,6 +208,8 @@ The dataset contains reviews of hotels across Europe with the following informat
 - Review metadata (date, tags, reviewer score)
 - Geographical information (latitude, longitude)
 
+Please download the dataset using the following link: https://surfdrive.surf.nl/files/index.php/s/cy3NzaikRxHOXy2?path=%2FHotel%20Review%20Project#editor
+
 ### Exploratory Data Analysis
 
 The analysis revealed several interesting patterns:
