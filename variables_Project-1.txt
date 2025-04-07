@@ -1,0 +1,33 @@
+Description of Features
+
+
+Date : year-month-day
+Rented Bike count - Count of bikes rented at each hour
+Hour - Hour of the day
+Temperature - Temperature in Celsius
+Humidity - Humidity in %
+Windspeed - m/s
+Visibility - meters
+Dew point temperature - Celsius
+Solar radiation - MJ/m2
+Rainfall - mm
+Snowfall - cm
+
+--------------
+
+The features (9 in total) and the Target variable are listed below.
+
+Features = ['Hour',
+ 'Temperature(Celsius)',
+ 'Humidity(%)',
+ 'Wind speed (m/s)',
+ 'Visibility (10m)',
+ 'Dew point temperature(Celsius)',
+ 'Solar Radiation (MJ/m2)',
+ 'Rainfall(mm)',
+ 'Snowfall (cm)'
+ ]
+ 
+ Target = "Rented Bike count"
+ 
+ 
