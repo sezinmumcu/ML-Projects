@@ -11,6 +11,28 @@ This portfolio showcases my skills in:
 - Model evaluation and hyperparameter tuning
 - Feature engineering and selection
 
+## Project Structure 
+
+ML-projects/
+│
+├── Project-1.ipynb          # Regression Analysis on Seoul Bike-Sharing Data
+├── data_Project-1.csv       # Seoul Bike-Sharing dataset
+├── variables_Project-1.txt  # Variable descriptions for Project 1
+│
+├── Project-2.ipynb          # Classification of Online News Popularity
+├── data_Project-2.csv       # Online News Popularity dataset
+├── variables_Project-2      # Variable descriptions for Project 2
+│
+├── Project-3.ipynb          # Hotel Review Analysis
+├── variables_Project-3.pdf  # Variable descriptions for Project 3
+│
+└── README.md                # Repository documentation
+
+## Data Files
+
+- Each project has its corresponding data file(s) and variable descriptions
+- For the Hotel Review dataset, download from: https://surfdrive.surf.nl/files/index.php/s/cy3NzaikRxHOXy2?path=%2FHotel%20Review%20Project#editor
+
 ## Projects
 
 ## Assignment 1: Regression Analysis on Seoul Bike-Sharing Data
@@ -51,6 +73,9 @@ The dataset contains weather conditions and temporal information to predict the 
 - Ridge and Lasso models performed similarly to OLS, suggesting minimal multicollinearity in the dataset
 - Adding temporal features (month, day of week, weekend indicator, seasonal effects) improved model performance, increasing R² to 0.51
 
+![Unknown-2](https://github.com/user-attachments/assets/fab8ac62-b174-4d18-8fc0-a8e687aaf1d7)
+![Unknown-3](https://github.com/user-attachments/assets/5df10103-889f-475a-8d87-46ce28e7a8b3)
+
 ### Feature Engineering
 
 Additional temporal features were extracted to enhance model performance:
@@ -58,6 +83,8 @@ Additional temporal features were extracted to enhance model performance:
 - Day of Week (0-6): Captures weekly patterns
 - Is Weekend (0/1): Binary indicator for weekend days
 - Seasonal Effects: One-hot encoded seasons (Winter, Spring, Summer, Fall)
+
+![Unknown-1](https://github.com/user-attachments/assets/8d3fa77a-6cec-4ed8-8120-e5cc16b851d6)
 
 ### Interaction Effects
 
@@ -167,6 +194,12 @@ The Random Forest model showed a 2.57% improvement over the Decision Tree model.
 
 Both models identified similar important features, with the Random Forest providing more stable feature importance estimates.
 
+_Feature Importance of Decision Tree_
+![Unknown-1](https://github.com/user-attachments/assets/5581e7aa-a499-49a1-b971-a0de45bf0e88)
+
+_Feature Importance of Random Forest_
+![Unknown-2](https://github.com/user-attachments/assets/ede755bf-d1c3-412d-93d2-2d4d7b78dd2e)
+
 #### Robustness Testing
 
 Models were tested with increasing levels of Gaussian noise (standard deviations of 0, 0.1, 0.2, 0.5, and 1.0) to evaluate their robustness.
@@ -188,6 +221,8 @@ Performance Degradation:
 #### ROC Curve Analysis
 
 The Random Forest model achieved a higher AUC score compared to the Decision Tree model, indicating better overall performance.
+
+![Unknown](https://github.com/user-attachments/assets/c54f39ac-74c6-446c-8c27-3a1b699cb019)
 
 #### Conclusion
 
@@ -252,6 +287,10 @@ A Random Forest Regressor was used to predict the exact reviewer score based on 
 ### Geographical Analysis
 
 Hotels were clustered based on their geographical location, revealing interesting patterns in the distribution of highly-rated hotels across Europe.
+
+![Unknown-3](https://github.com/user-attachments/assets/cab27e2a-d03e-4b0a-a2be-311d3ded8d1d)
+
+![Unknown-5](https://github.com/user-attachments/assets/37d66b65-d791-4581-a23e-aedfec88102a)
 
 ### Conclusion
 
